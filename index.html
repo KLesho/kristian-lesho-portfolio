@@ -4,8 +4,21 @@
   <meta charset="UTF-8">
   <title>Kristian Lesho | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <header>
     <h1>Kristian Lesho</h1>
@@ -22,8 +35,15 @@
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li>Project 1 – Description</li>
-      <li>Project 2 – Description</li>
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Integrated module X with Y, automating Z in D365 F&O.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Custom workflow solution for client ABC using X++.</p>
+      </div>
     </ul>
   </section>
 
